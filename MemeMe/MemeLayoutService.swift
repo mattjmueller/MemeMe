@@ -37,6 +37,7 @@ struct MemeLayoutService {
 		}
 	}
 	
+	
 	//***************************************************************************
 	// MARK: - Fields
 	//***************************************************************************
@@ -60,6 +61,7 @@ struct MemeLayoutService {
 			}
 		}
 	}
+	
 	var topText: String = "" {
 		didSet {
 			if currentLayout != nil {
@@ -67,6 +69,7 @@ struct MemeLayoutService {
 			}
 		}
 	}
+	
 	var bottomText: String = "" {
 		didSet {
 			if currentLayout != nil {
@@ -110,6 +113,7 @@ struct MemeLayoutService {
 		self.topText = ""
 		self.bottomText = ""
 	}
+	
 	
 	//***************************************************************************
 	// MARK: - Meme Layout

@@ -10,7 +10,6 @@ import UIKit
 
 class EditMemeViewController: UIViewController, UIImagePickerControllerDelegate,
 UINavigationControllerDelegate, UITextFieldDelegate {
-	
 	//******************************************************
 	// MARK: - IB Outlets
 	//******************************************************
@@ -169,7 +168,6 @@ UINavigationControllerDelegate, UITextFieldDelegate {
 		imagePicker.sourceType = source
 		present(imagePicker, animated: true, completion: nil)
 	}
-	
 	
 	@IBAction func shareMeme(_ sender: UIBarButtonItem) {
 		guard memeLayoutService.currentLayout != nil else {

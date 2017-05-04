@@ -56,6 +56,7 @@ class SentMemesTableViewController: UITableViewController {
 		return cell
 	}
 	
+	
 	//******************************************************
 	// MARK: - Table View Delegate
 	//******************************************************
